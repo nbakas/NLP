@@ -1,0 +1,4 @@
+# The requirements.txt regard the 12-RAG-Transformers-Streamlit.py to run it on HuggingFace 
+# Rename it to requirements.txt and make a streamlit space on HuggingFace
+# https://huggingface.co/spaces/nibas/Simple-Chat
+sentence-transformers
