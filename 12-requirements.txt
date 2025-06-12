@@ -2,3 +2,4 @@
 # Rename it to requirements.txt and make a streamlit space on HuggingFace
 # https://huggingface.co/spaces/nibas/Simple-Chat
 sentence-transformers
+openai
