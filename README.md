@@ -1,21 +1,24 @@
 # Natural Language Processing
 
 
-# Navigate to or create the desired project folder
-mkdir myproject         # Create the folder (skip if it already exists)
-cd myproject            # Move into the project folder
+# Install dependencies
 
-# Create a virtual environment named 'myvenv' inside this folder
-python -m venv myvenv
+- **Create and move into your project folder**
+  - `mkdir myproject` – Create a new folder named `myproject` (skip if it already exists)
+  - `cd myproject` – Change into the project directory
 
-# Activate the virtual environment on Unix/Linux/MacOS
-source myvenv/bin/activate
+- **Create a virtual environment inside the folder**
+  - `python -m venv myvenv` – This creates a virtual environment named `myvenv`
 
-# (Alternative) Activate the virtual environment on Windows (use this instead if on Windows)
-myvenv\Scripts\activate
+- **Activate the virtual environment**
+  - On **Linux/macOS**:
+    - `source myvenv/bin/activate`
+  - On **Windows**:
+    - `myvenv\Scripts\activate`
 
-# Optional: Check currently installed packages (should be minimal at this point)
-pip list
+- **Check installed packages (optional)**
+  - `pip list` – Displays packages currently installed in the environment
 
-# Install all required packages from requirements.txt (this file should be inside 'myproject')
-pip install -r requirements.txt
+- **Install dependencies from `requirements.txt`**
+  - `pip install -r requirements.txt` – Installs all required packages from the file
+
