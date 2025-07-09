@@ -2,4 +2,10 @@
 # Rename it to requirements.txt and make a streamlit space on HuggingFace
 # https://huggingface.co/spaces/nibas/Simple-Chat
 sentence-transformers
+streamlit
+scikit-learn
+huggingface-hub
 openai
+numpy
+torch
+transformers
